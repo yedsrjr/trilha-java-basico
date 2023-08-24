@@ -24,7 +24,7 @@ public class ContaTerminalTest {
         conta.setNome_cliente(sc.next());
         System.out.println();
 
-        System.out.println("Programa: Por favor, digite o saldo!!");
+        System.out.println("Programa: Por favor, digite o saldo!");
         System.out.print("Usuário: ");
         conta.setSaldo(sc.nextDouble());
 
