@@ -18,24 +18,17 @@ public class ContaTerminal {
                 " já está disponível para saque.";
     }
 
-    public int getNumero() {
-        return numero;
-    }
-
     public void setNumero(int numero) {
         this.numero = numero;
     }
-
 
     public void setAgencia(String agencia) {
         this.agencia = agencia;
     }
 
-
     public void setNome_cliente(String nome_cliente) {
         this.nome_cliente = nome_cliente;
     }
-
 
     public void setSaldo(double saldo) {
         this.saldo = saldo;
